@@ -40,11 +40,16 @@ html {
 }
 
 body {
-    margin: 0 auto;
     font-family: 'TT Lakes';
     font-weight: normal;
     color: #1B1C21;
     background: #F8F8F8;
+    min-width: 320px;
+}
+
+.conteiner {
+    margin: 0 auto;
+    max-width: 1120px;
 }
 
 .wrapper {
